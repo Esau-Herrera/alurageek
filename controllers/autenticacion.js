@@ -19,7 +19,7 @@ btnEntrar.addEventListener('click',(e) => {
       alerta.classList.add('mostrar');
       setTimeout(() => {
         alerta.classList.add('ocultar');
-        window.location.href = "/screens/productos.html";
+        window.location.href = "../screens/productos.html";
       }, 1800);
     } else {
       alert('Correo o contraseña incorrectos, intente de nuevo');
