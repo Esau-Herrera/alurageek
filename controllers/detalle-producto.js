@@ -62,7 +62,8 @@ const lista = document.getElementsByClassName("otros__contenedor");
 
 document.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
-    const referencia = document.getElementById("otrosCat").textContent;
+    // const referencia = document.getElementById("otrosCat").textContent;
+    const referencia = document.getElementById("titulo__categoria").textContent;
     setTimeout(() => {
       productosServicios.enlaceProductos().then((producto) => {
         const prodFiltrados = producto.filter(({categoria}) => categoria === referencia);        
