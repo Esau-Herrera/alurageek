@@ -137,10 +137,10 @@
   }
   .producto__imagen {
     max-width: 560px;
-    max-height: 403px;
+    max-height: 423px;
   }
-  .producto__info {
-    margin: 96.5px 8px;
+  .producto__info {    
+    width: 560px;
   }
   .producto__titulo,
   .producto__nombre {
@@ -158,3 +158,9 @@
   }
 }
 
+@media (min-width: 1400px) {
+  .producto__info {
+    width: 560px;   
+    margin: 96.5px 8px;
+  }
+}

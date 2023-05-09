@@ -20,7 +20,7 @@ const obtenerInfoProd = () => {
       <p class="producto__titulo" id="titulo__categoria">${categoria}</p>
     </div>
     <div class="producto__contenedor">      
-      <img src="${imagen}" alt="${nombre}" class="producto__imagen">
+      <img src="../${imagen}" alt="${nombre}" class="producto__imagen">
       <div class="producto__info">
         <p class="producto__nombre">${nombre}</p>
         <p class="producto__precio">$ ${precio}</p>
@@ -44,7 +44,7 @@ const crearProducto = (imagen,nombre,precio,id,categoria) => {
   const contenedorProducto = document.createElement('div');
   contenedorProducto.classList.add("productos__contenedor");
   const contenidoProducto = `  
-  <img src="${imagen}" alt="${nombre}" class="productos__imagen">
+  <img src="../${imagen}" alt="${nombre}" class="productos__imagen">
   <div class="productos__info">
     <p class="productos__nombre">${nombre}</p>
     <p class="productos__precio">$ ${precio}</p>
@@ -78,41 +78,8 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         }
       }).catch((err) => console.log(err));
-    },0)
-  }, 146);
+    },1)
+  }, 200);
   
 })
-
-
-
-
-
-
-
-
-
-/*
-
-// aun no funciona, ya que al intentar almacenar tituloCat aun no esta en pantalla y da error que es null
-
-document.addEventListener('DOMContentLoaded', async () => {
-  window.addEventListener('load', async () => {
-    const tituloCat = document.getElementById('otrosCat').textContent;
-
-    try {
-      const producto = await productosServicios.enlaceProductos();
-      const prodFiltrados = producto.filter(({categoria}) => categoria === tituloCat);
-      prodFiltrados.forEach(({imagen,nombre,precio,id,categoria}) => {
-        const nvoProducto = crearProducto(imagen,nombre,precio,id,categoria);
-        lista[0].appendChild(nvoProducto);
-      });
-    } catch (err) {
-      console.log(err);      
-      // window.location.href = '/screens/error.html';
-    }
-  });
-});
-
-*/
-
 

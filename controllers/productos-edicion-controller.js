@@ -22,7 +22,7 @@ const crearProducto =(imagen,nombre,precio,id,categoria) => {
   const contenedorProducto = document.createElement('div');
   contenedorProducto.classList.add("productos__contenedor");
   const contenidoProducto = `
-  <img src="${imagen}" alt="${nombre}" class="productos__imagen">
+  <img src="../${imagen}" alt="${nombre}" class="productos__imagen">
   <div class="productos__info">
     <p class="productos__nombre" data-prod-nombre>${nombre}</p>
     <p class="productos__precio">$ ${precio}</p>
