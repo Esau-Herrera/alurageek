@@ -69,6 +69,7 @@
 .productos__imagen {
   background: transparent;
   width: calc(100%);
+
 }
 .productos__info {
   display: flex;
