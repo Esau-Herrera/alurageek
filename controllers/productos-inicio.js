@@ -11,7 +11,7 @@ const crearCategorias = (titulo) => {
     <div class="lista__cabecera">
       <p class="lista__titulo">${titulo}</p>
       <div class="lista__contenedor">
-      <a href="./screens/todos-productos.html" class="lista__link">Ver todo <ion-icon name="arrow-forward-outline"></ion-icon></a>
+      <a href="./screens/todos-productos.html" class="lista__link">Ver todo<ion-icon name="arrow-forward-outline"></ion-icon></a>
       </div>
     </div>
   </div>  
@@ -38,7 +38,7 @@ const crearProducto = (imagen,nombre,precio,id,categoria) => {
   <div class="productos__info">
     <p class="productos__nombre">${nombre}</p>
     <p class="productos__precio">$ ${precio}</p>
-    <a class="productos__link" href="../screens/detalle-producto.html?id=${id}">Ver producto</a>    
+    <a class="productos__link" href="./screens/detalle-producto.html?id=${id}">Ver producto</a>    
     <p class="productos__categoria">${categoria}</p>
   </div>
   `;
