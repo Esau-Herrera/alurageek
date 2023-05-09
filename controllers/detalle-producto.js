@@ -29,9 +29,8 @@ const obtenerInfoProd = () => {
     </div>
     <section class="otros__inicio">
       <div class="otros__productos">
-        <div class="otros__titulo">Productos relacionados con <p id="otrosCat">${categoria}</p></div>
-        <div class="otros__contenedor">
-        </div>
+        <p class="otros__titulo">Otros productos de ${categoria}</p>
+        <div class="otros__contenedor"></div>
       </div>
     </section>
     `;

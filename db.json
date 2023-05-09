@@ -3,7 +3,7 @@
     {
       "nombre": "Tasa blanca",
       "precio": "60.00",
-      "imagen": "./assets/img/star-wars/sw1.png",
+      "imagen": "./img/star-wars/sw1.png",
       "categoria": "Star Wars",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias amet ducimus fuga eaque velit aperiam incidunt odio ipsam consectetur minus similique, cum explicabo, ipsum laboriosam. Dicta voluptatum sunt fugit dolorem",
       "id": "vftGwlm"
@@ -11,7 +11,7 @@
     {
       "nombre": "Legos Darth Vader",
       "precio": "435.80",
-      "imagen": "./assets/img/star-wars/sw2.png",
+      "imagen": "./img/star-wars/sw2.png",
       "categoria": "Star Wars",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias amet ducimus fuga eaque velit aperiam incidunt odio ipsam consectetur minus similique, cum explicabo, ipsum laboriosam. Dicta voluptatum sunt fugit dolorem",
       "id": "dP_ZAUG"
@@ -19,7 +19,7 @@
     {
       "nombre": "Yoda",
       "precio": "150.00",
-      "imagen": "./assets/img/star-wars/sw3.png",
+      "imagen": "./img/star-wars/sw3.png",
       "categoria": "Star Wars",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias amet ducimus fuga eaque velit aperiam incidunt odio ipsam consectetur minus similique, cum explicabo, ipsum laboriosam. Dicta voluptatum sunt fugit dolorem",
       "id": "iJ_1A9G"
@@ -27,7 +27,7 @@
     {
       "nombre": "Stormtrooper",
       "precio": "150.00",
-      "imagen": "./assets/img/star-wars/sw4.png",
+      "imagen": "./img/star-wars/sw4.png",
       "categoria": "Star Wars",
       "descripcion": "Figura de acción de un Stormtrooper, el icónico soldado del Imperio Galáctico en Star Wars. Tiene un traje blindado blanco y negro con casco, guantes y botas. También lleva un rifle bláster y una pistola bláster. La figura es articulada y puede adoptar diferentes poses.",
       "id": "Qww-oTH"
@@ -35,7 +35,7 @@
     {
       "nombre": "Baby Yoda",
       "precio": "238.50",
-      "imagen": "./assets/img/star-wars/sw5.png",
+      "imagen": "./img/star-wars/sw5.png",
       "categoria": "Star Wars",
       "descripcion": "Muñeco de acción baby Yoda",
       "id": "RZFgEY6"
@@ -43,7 +43,7 @@
     {
       "nombre": "Darth Vader",
       "precio": "820.00",
-      "imagen": "./assets/img/star-wars/sw6.png",
+      "imagen": "./img/star-wars/sw6.png",
       "categoria": "Star Wars",
       "descripcion": "Figura de acción de Darth Vader, el temible villano y líder de los Sith en Star Wars. Tiene un traje negro con armadura, capa y máscara que le ayudan a respirar. También lleva un sable de luz rojo y un cinturón con botones. La figura es articulada y puede recrear escenas de las películas.",
       "id": "8OYnPWZ"
@@ -51,7 +51,7 @@
     {
       "nombre": "Control Xbox",
       "precio": "2515.70",
-      "imagen": "./assets/img/consolas/cons1.png",
+      "imagen": "./img/consolas/cons1.png",
       "categoria": "Consolas",
       "descripcion": "Control de Xbox, el dispositivo que permite jugar a los videojuegos de la consola Xbox. Tiene una forma ergonómica que se adapta a la mano y cuenta con botones, gatillos, palancas y un panel táctil. El control se puede conectar a la consola por cable o por Bluetooth. También tiene una entrada para auriculares y un puerto USB.",
       "id": "DlD6_g2"
@@ -59,7 +59,7 @@
     {
       "nombre": "Consola PS5",
       "precio": "14565.00",
-      "imagen": "./assets/img/consolas/cons2.png",
+      "imagen": "./img/consolas/cons2.png",
       "categoria": "Consolas",
       "descripcion": "Consola PS5 azul, una versión personalizada de la consola PlayStation 5 con una carcasa de repuesto de color azul. Tiene las mismas características y funciones que la PS5 original, pero con un diseño diferente y único.",
       "id": "OKS7rKp"
@@ -67,7 +67,7 @@
     {
       "nombre": "Consola NES",
       "precio": "184.60",
-      "imagen": "./assets/img/consolas/cons3.png",
+      "imagen": "./img/consolas/cons3.png",
       "categoria": "Consolas",
       "descripcion": "Consola NES, una videoconsola de 8 bits lanzada por Nintendo en la década de 1980. Fue la primera consola de sobremesa de Nintendo en emplear cartuchos y la más exitosa de su época. Tiene un diseño rectangular con un color gris y negro y dos mandos con cruceta y botones",
       "id": "yeKVAKY"
@@ -75,7 +75,7 @@
     {
       "nombre": "Controles Nintendo Switch",
       "precio": "60.00",
-      "imagen": "./assets/img/consolas/cons4.png",
+      "imagen": "./img/consolas/cons4.png",
       "categoria": "Consolas",
       "descripcion": "Los controles de un Nintendo Switch son pequeños dispositivos que se pueden acoplar a la consola o usar de forma inalámbrica. Tienen botones, palancas y sensores de movimiento que permiten interactuar con los juegos. Uno de los controles es de color rojo y el otro es de color azul, lo que los hace fáciles de distinguir y divertidos de usar",
       "id": "MLZNfEI"
@@ -83,7 +83,7 @@
     {
       "nombre": "Consola Xbox Series X",
       "precio": "13537.80",
-      "imagen": "./assets/img/consolas/cons5.png",
+      "imagen": "./img/consolas/cons5.png",
       "categoria": "Consolas",
       "descripcion": "dispositivo de videojuegos que se puede conectar a un televisor o monitor. Tiene una forma de torre y un color negro, y se puede colocar vertical u horizontalmente. Tiene una capacidad de almacenamiento de 1 TB y puede reproducir juegos en 4K y hasta 120 fotogramas por segundo. También tiene un control inalámbrico con botones, palancas y un botón para compartir. Es compatible con miles de juegos de cuatro generaciones de Xbox",
       "id": "cM9egDA"
@@ -91,7 +91,7 @@
     {
       "nombre": "Consola Game Boy",
       "precio": "60.00",
-      "imagen": "./assets/img/consolas/cons6.png",
+      "imagen": "./img/consolas/cons6.png",
       "categoria": "Consolas",
       "descripcion": "Tiene una pantalla de color verde, cinco botones de control y un altavoz. Usa cartuchos para los juegos, que se insertan en la parte trasera. Algunos de los juegos más populares son Tetris, Super Mario Land y Pokémon",
       "id": "W3ck9Rx"
@@ -99,7 +99,7 @@
     {
       "nombre": "Producto XYZ",
       "precio": "60.00",
-      "imagen": "./assets/img/varios/var1.png",
+      "imagen": "./img/varios/var1.png",
       "categoria": "Diversos",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias amet ducimus fuga eaque velit aperiam incidunt odio ipsam consectetur minus similique, cum explicabo, ipsum laboriosam. Dicta voluptatum sunt fugit dolorem",
       "id": "eZyeGZG"
@@ -107,7 +107,7 @@
     {
       "nombre": "Producto XYZ",
       "precio": "60.00",
-      "imagen": "./assets/img/varios/var2.png",
+      "imagen": "./img/varios/var2.png",
       "categoria": "Diversos",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias amet ducimus fuga eaque velit aperiam incidunt odio ipsam consectetur minus similique, cum explicabo, ipsum laboriosam. Dicta voluptatum sunt fugit dolorem",
       "id": "IMpph-i"
@@ -115,7 +115,7 @@
     {
       "nombre": "Sonic",
       "precio": "60.00",
-      "imagen": "./assets/img/varios/var3.png",
+      "imagen": "./img/varios/var3.png",
       "categoria": "Diversos",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias amet ducimus fuga eaque velit aperiam incidunt odio ipsam consectetur minus similique, cum explicabo, ipsum laboriosam. Dicta voluptatum sunt fugit dolorem",
       "id": "o-SHd8h"
@@ -123,7 +123,7 @@
     {
       "nombre": "Radio",
       "precio": "260.60",
-      "imagen": "./assets/img/varios/var4.png",
+      "imagen": "./img/varios/var4.png",
       "categoria": "Diversos",
       "descripcion": "Lorem, ipsum dolor sit o ipsam consectetur minus similique, cum explicabo, ipsum laboriosam. Dicta voluptatum sunt fugit dolorem",
       "id": "CGDfIQQ"
@@ -131,7 +131,7 @@
     {
       "nombre": "Gafas de Realidad Ritrual",
       "precio": "60.00",
-      "imagen": "./assets/img/varios/var5.png",
+      "imagen": "./img/varios/var5.png",
       "categoria": "Diversos",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias amet ducimus fuga eaque velit aperiam incidunt odio ipsam consectetur minus similique, cum explicabo, ipsum laboriosam. Dicta voluptatum sunt fugit dolorem",
       "id": "SzTOm8L"
@@ -139,7 +139,7 @@
     {
       "nombre": "Peluche Picachu ",
       "precio": "655.00",
-      "imagen": "./assets/img/varios/var6.png",
+      "imagen": "./img/varios/var6.png",
       "categoria": "Diversos",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias amet ducimus ",
       "id": "u3S5UuZ"

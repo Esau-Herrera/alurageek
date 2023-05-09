@@ -9,7 +9,7 @@ const obtenerInfo = () => {
   const id = url.searchParams.get('id');
 
   if (id === null) {
-    window.location.href = '/screens/error.html';
+    window.location.href = '../screens/error.html';
   }
 
   const nombre = document.querySelector('[data-tipo="nombre"]');
