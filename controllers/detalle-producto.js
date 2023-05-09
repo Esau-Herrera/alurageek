@@ -49,7 +49,7 @@ const crearProducto = (imagen,nombre,precio,id,categoria) => {
   <div class="productos__info">
     <p class="productos__nombre">${nombre}</p>
     <p class="productos__precio">$ ${precio}</p>
-    <a class="productos__link" href="../../screens/detalle-producto.html?id=${id}">Ver producto</a>
+    <a class="productos__link" href="../screens/detalle-producto.html?id=${id}">Ver producto</a>
     <p class="productos__id ocultar" data-id="${id}">${id}</p>
     <p class="productos__categoria">${categoria}</p>
   </div>

@@ -10,7 +10,7 @@ const crearCategorias = (titulo) => {
   <div class="lista__cabecera">
     <p class="lista__titulo">${titulo}</p>
     <div class="lista__contenedor">
-      <a href="/screens/todos-productos.html" class="lista__link">Ver todo <ion-icon name="arrow-forward-outline"></ion-icon></a>            
+      <a href="../screens/todos-productos.html" class="lista__link">Ver todo<ion-icon name="arrow-forward-outline"></ion-icon></a>            
     </div>
   </div>
   <div class="lista__productos" data-listaProductos></div>
