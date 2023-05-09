@@ -70,16 +70,16 @@ document.addEventListener("DOMContentLoaded", () => {
           const nvoProducto = crearProducto(imagen,nombre,precio,id,categoria);                 
           lista[0].appendChild(nvoProducto);
         });
-        const podId = document.querySelectorAll("[data-id]");      
-        for (let i = 0; i < podId.length; i++) {
-          if(podId[i].textContent === id){
-            const elementoEliminar = podId[i].parentNode.parentNode;            
+        const prodId = document.querySelectorAll("[data-id]");      
+        for (let i = 0; i < prodId.length; i++) {
+          if(prodId[i].textContent === id){
+            const elementoEliminar = prodId[i].parentNode.parentNode;            
             elementoEliminar.classList.add('ocultar');
           }
         }
       }).catch((err) => console.log(err));
     },0)
-  }, 70);
+  }, 146);
   
 })
 
