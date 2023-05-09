@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AluraGeek - Ver todos</title>
+    <link rel="icon" href="../assets/img/logo.ico">
+    <link rel="stylesheet" href="../assets/css/app.css">
+    <link rel="stylesheet" href="../assets/css/cabecera.css">
+    <link rel="stylesheet" href="../assets/css/todos-productos.css">
+    <link rel="stylesheet" href="../assets/css/rodapie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;1,400;1,500&family=Raleway:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="cabecera">      
+      <div class="cabecerapd__contenedor">
+        <a href="../index.html">
+          <img class="cabecera__logo" src="../assets/img/Logo.png" alt="Logo de AluraGeek">
+        </a>
+        <div class="cabecera__busqueda">
+          <input class="busqueda__barra" type="search" placeholder="¿Qué deseas buscar?">
+          <span>
+            <ion-icon class="busqueda__lupa" name="search-outline"></ion-icon>
+          </span>
+        </div>
+      </div>      
+    </header>
+    <main class="edicion__departamentos">      
+      <section class="edicion__lista" data-contenedor-edicion>
+        <div class="edicion__cabecera">
+          <h3 class="edicion__titulo">Todos los productos</h3>
+          <div class="btn__contenedor">
+            <a href="../index.html" class="edicion__link">Regresar al inicio</a>
+          </div>
+        </div>
+        <div class="aviso ocultar">
+          <span><ion-icon class="aviso__alerta" name="checkmark-circle"></ion-icon></span>
+          <span class="aviso__mensaje">Producto editado con éxito</span>        
+        </div>
+      </section>
+      </section>
+    </main>
+
+    <footer class="rodapie">
+      <section class="rodapie__contenido">
+        <div class="rodapie__contenedor">
+          <div class="contenedor__logo">
+            <img class="rodapie__logo" src="../assets/img/Logo.png" alt="Logo de AluraGeek">
+          </div>
+          <div class="contenedor__lista">
+            <ul class="rodapie__links">
+              <li>
+                <a href="#">Quienes somos</a>
+              </li>
+              <li>
+                <a href="#">Política de privacidad</a>
+              </li>
+              <li>
+                <a href="#">Programa de fidelidad</a>
+              </li>
+              <li>
+                <a href="#">Nuestreas tiendas</a>
+              </li>
+              <li>
+                <a href="#">Quiero ser franquiciatario</a>
+              </li>
+              <li>
+                <a href="#">Anunciate aquí</a>
+              </li>          
+            </ul>
+          </div>
+        </div>
+
+        <div class="contenedor__contacto">
+          <form class="rodapie__formulario" action="#">
+            <fieldset>
+              <legend class="formulario__titulo">Hable con nosotros</legend>
+              <div class="entrada__contenedor entrada1">
+                <label class="formulario__etiqueta" for="nombre">Nombre</label>
+                <input class="formulario__nombre texto formValidar" type="text" minlength="2" maxlength="45" required data-tipo="nombre">
+                <span class="formulario__error">Este campo no puede estar vacío</span>
+              </div>
+              <div class="entrada__contenedor entrada2">
+                <textarea class="formulario__mensaje formValidar" name="mensaje" cols="40" rows="3.5" minlength="3" maxlength="320" placeholder="Escribe tu mensaje" required data-tipo="mensaje"></textarea>
+                <span class="formulario__error">Este campo no puede estar vacío</span>
+              </div>
+            </fieldset>
+            <button class="formulario__btn">Enviar mensaje</button>
+          </form>            
+        </div>
+      </section>
+      <section class="rodapie__autor">
+        <p>Desarrollado por Esau Ivan Herrera Lopez <br> 2023 </p>
+      </section>      
+    </footer>   
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>    
+    <script src="../controllers/mensajes-error.js"></script>
+    <script src="../controllers/productos-edicion-controller.js" type="module"></script>
+  </body>
+</html>
+

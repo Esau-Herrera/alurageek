@@ -1,0 +1,26 @@
+.error {
+  min-height: 350px;
+  padding: 2rem 1rem;
+  text-align: center;
+  background: var(--fondo-gris);
+  box-sizing: border-box;
+}
+.error__icono {
+  margin-bottom: 1rem;
+  color: var(--color-rojo);
+  font-size: 4rem;
+  --ionicon-stroke-width: 20px;
+}
+.error__titulo {
+  margin-bottom: 1.5rem;
+  font-size: 1.75em;
+}
+.error__btn {
+  padding: 1.25rem;
+  display: inline-block;
+  font-weight: 700;
+  background: var(--color-azul);
+  color: var(--color-blanco);
+  border-radius: 8px;
+  cursor: pointer;
+}
