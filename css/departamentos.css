@@ -24,12 +24,12 @@
 .lista__contenedor {
   display: flex;
 }
-.lista__link {
+.btn__link {
   display: flex;
   align-items: center;
   gap: 4px;
 }
-.lista__link ion-icon {
+.btn__link ion-icon {
   font-size: 16px;
 }
 
@@ -69,13 +69,14 @@
   font-weight: 700;
   color: var(--color-gris);
 }
-.lista__link,
+.btn__link,
 .productos__link {
   font-size: 14px;
   font-weight: bold;
   color: var(--color-azul);
 }
-.productos__categoria {
+.productos__categoria,
+.ocultar {
   display: none;
 }
 
@@ -100,7 +101,7 @@
   .productos__contenedor {
    flex-basis: calc(25% - 12px); 
   }
-  .lista__link,
+  .btn__link,
   .productos__link {
     font-size: 16px;
   }
