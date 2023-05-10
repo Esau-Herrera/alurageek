@@ -62,9 +62,14 @@ const alternarVista = (categoria) => {
   });
 }
 
+//implementacion en pantalla tactil
+const pantallaTactil = 'ontouchstart' in window;
+const evento = pantallaTactil ? 'touchstart' : 'click';
+
+
 botonesVer.forEach((btn) => {
   const categoria = btn.id.slice(3);
-  btn.addEventListener('click',() => {
+  btn.addEventListener(evento,() => {
     alternarVista(categoria);
   });
 });
