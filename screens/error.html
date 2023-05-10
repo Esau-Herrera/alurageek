@@ -71,21 +71,26 @@
         <div class="contenedor__contacto">
           <form class="rodapie__formulario" action="#">
             <fieldset>
-              <legend class="formulario__titulo">Hable con nosotros
-              </legend>
+              <legend class="formulario__titulo">Hable con nosotros</legend>
               <div class="entrada__contenedor entrada1">
                 <label class="formulario__etiqueta" for="nombre">Nombre</label>
-                <input class="formulario__nombre texto" type="text" minlength="2" maxlength="45" required data-tipo="nombre">
-                <span class="formulario__error">Este campo no es valido</span>
+                <input class="formulario__nombre texto formValidar" type="text" minlength="2" maxlength="45" required data-tipo="nombre">
+                <span class="formulario__error">Este campo no puede estar vacío</span>
               </div>
               <div class="entrada__contenedor entrada2">
-                <textarea class="formulario__mensaje" name="mensaje" cols="40" rows="3.5" minlength="3" maxlength="320" placeholder="Escribe tu mensaje" required data-tipo="mensaje"></textarea>
-                <span class="formulario__error">Este campo no es valido</span>
+                <textarea class="formulario__mensaje formValidar" name="mensaje" cols="40" rows="3.5" minlength="3" maxlength="320" placeholder="Escribe tu mensaje" required data-tipo="mensaje"></textarea>
+                <span class="formulario__error">Este campo no puede estar vacío</span>
               </div>
             </fieldset>
-            <button class="formulario__btn">Enviar mensaje</button>
-          </form>            
-        </div>        
+            <button class="formulario__btn" data-envia-btn>Enviar mensaje</button>
+          </form>
+          <div class="envio ocultar">
+            <span>
+              <ion-icon class="aviso__alerta" name="checkmark-circle"></ion-icon>
+            </span>
+            <span class="aviso__mensaje">Mensaje enviado con éxito</span>        
+          </div>
+        </div>
       </section>
       <section class="rodapie__autor">
         <p>Desarrollado por Esau Ivan Herrera Lopez <br> 2023 </p>

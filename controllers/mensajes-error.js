@@ -72,4 +72,24 @@ for (let input of inputs) {
   });
 }
 
+const btnEnviar = document.querySelector('[data-envia-btn]');
+const alertaEnvio = document.querySelector('.envio');
 
+btnEnviar.addEventListener('click',(e) => {
+  e.preventDefault();    
+  let nombre = document.querySelector('[data-tipo="nombre"]');
+  let mensaje = document.querySelector('[data-tipo="mensaje"]');
+
+  if (nombre.value == "" || mensaje.value == "") {
+    alert('Ningun campo puede estar vacío');
+  } else {
+    alertaEnvio.classList.remove('ocultar');
+    alertaEnvio.classList.add('mostrar');
+    setTimeout(() => {
+      console.log(nombre.value,mensaje.value);      
+      alertaEnvio.classList.add('ocultar');
+      nombre.value = "";
+      mensaje.value = "";
+    }, 1800);
+  }  
+});

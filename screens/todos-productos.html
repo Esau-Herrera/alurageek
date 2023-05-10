@@ -88,8 +88,14 @@
                 <span class="formulario__error">Este campo no puede estar vacío</span>
               </div>
             </fieldset>
-            <button class="formulario__btn">Enviar mensaje</button>
-          </form>            
+            <button class="formulario__btn" data-envia-btn>Enviar mensaje</button>
+          </form>
+          <div class="envio ocultar">
+            <span>
+              <ion-icon class="aviso__alerta" name="checkmark-circle"></ion-icon>
+            </span>
+            <span class="aviso__mensaje">Mensaje enviado con éxito</span>        
+          </div>
         </div>
       </section>
       <section class="rodapie__autor">
@@ -98,7 +104,7 @@
     </footer>   
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>    
-    <script src="../controllers/mensajes-error.js"></script>
+    <script src="../controllers/mensajes-error.js" type="module"></script>
     <script src="../controllers/productos-edicion-controller.js" type="module"></script>
   </body>
 </html>

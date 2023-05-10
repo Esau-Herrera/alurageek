@@ -85,37 +85,22 @@
               <legend class="formulario__titulo">Hable con nosotros</legend>
               <div class="entrada__contenedor entrada1">
                 <label class="formulario__etiqueta" for="nombre">Nombre</label>
-                <input
-                  class="formulario__nombre texto formValidar"
-                  type="text"
-                  minlength="2"
-                  maxlength="45"
-                  required
-                  data-tipo="nombre"
-                />
-                <span class="formulario__error"
-                  >Este campo no puede estar vacío</span
-                >
+                <input class="formulario__nombre texto formValidar" type="text" minlength="2" maxlength="45" required data-tipo="nombre">
+                <span class="formulario__error">Este campo no puede estar vacío</span>
               </div>
               <div class="entrada__contenedor entrada2">
-                <textarea
-                  class="formulario__mensaje formValidar"
-                  name="mensaje"
-                  cols="40"
-                  rows="3.5"
-                  minlength="3"
-                  maxlength="320"
-                  placeholder="Escribe tu mensaje"
-                  required
-                  data-tipo="mensaje"
-                ></textarea>
-                <span class="formulario__error"
-                  >Este campo no puede estar vacío</span
-                >
+                <textarea class="formulario__mensaje formValidar" name="mensaje" cols="40" rows="3.5" minlength="3" maxlength="320" placeholder="Escribe tu mensaje" required data-tipo="mensaje"></textarea>
+                <span class="formulario__error">Este campo no puede estar vacío</span>
               </div>
             </fieldset>
-            <button class="formulario__btn">Enviar mensaje</button>
+            <button class="formulario__btn" data-envia-btn>Enviar mensaje</button>
           </form>
+          <div class="envio ocultar">
+            <span>
+              <ion-icon class="aviso__alerta" name="checkmark-circle"></ion-icon>
+            </span>
+            <span class="aviso__mensaje">Mensaje enviado con éxito</span>        
+          </div>
         </div>
       </section>
       <section class="rodapie__autor">
@@ -127,7 +112,7 @@
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="../controllers/mensajes-error.js"></script>
+    <script src="../controllers/mensajes-error.js" type="module"></script>
     <script src="../controllers/productos-edicion-controller.js" type="module"></script>
     <script src="../controllers/buscar-producto.js"></script>
   </body>

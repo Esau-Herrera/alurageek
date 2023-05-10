@@ -86,7 +86,8 @@ label {
   color: var(--color-gris2);
 }
 
-.aviso {
+.aviso,
+.envio {
   min-width: 18rem;
   padding: 1rem;
   display: flex;
@@ -101,7 +102,8 @@ label {
   z-index: 2;
   box-sizing: border-box;
 }
-.aviso.mostrar {
+.aviso.mostrar,
+.envio.mostrar {
   animation:  ver_tarjeta 1.3s, ease forwards;
 }
 @keyframes ver_tarjeta {
@@ -116,7 +118,8 @@ label {
   }
 }
 
-.aviso.ocultar {
+.aviso.ocultar,
+.envio.ocultar {
   display: none;
 }
 .aviso__alerta {
