@@ -85,7 +85,7 @@ productosServicios.enlaceProductos().then((producto) => {
         lista[i].appendChild(nvoProducto);
         productosPorCat[categoria]++;
         if (productosPorCat[categoria] > 4) {
-          nvoProducto.classList.add('ocultar');
+          nvoProducto.classList.add('mostrado');
         }
       }
     });
